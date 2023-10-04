@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        video {
+            width: 400px;
+            height: 300px;
+        }
+
+        table,
+        tr,
+        td {
+            /* border: 1px solid black; */
+            border-collapse: collapse;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        td {
+            text-align: center;
+            width: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <table>
+            <tr>
+                <td>
+                    <h3>video</h3>
+                    <video loop controls muted>
+                        <source src="./video/test.mp4" type="video/mp4">
+                    </video>
+                </td>
+                <td>
+                    <h4>Lorem, ipsum dolor.</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus,
+                        accusamus!
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="container">
+        <table>
+            <tr>
+                <td>
+                    <h3>audio</h3>
+                    <audio loop controls autoplay muted>
+                        <source src="./video/test_mp3.mp3" type="audio/mp3">
+                        </video>
+                </td>
+                <td>
+                    <h4>Lorem, ipsum dolor.</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab commodi, fugiat necessitatibus
+                        itaque doloribus libero aliquam nam excepturi delectus. Molestiae?
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>

@@ -6,38 +6,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .container{
+        /* .container {
             width: 80%;
             margin: auto;
             background-color: aqua;
-        }
-        table,tr,td{
-            border: 1px solid black;
+        } */
+
+        table,
+        tr,
+        td {
+            /* border: 1px solid black; */
+            border-collapse: separate;
+            width: 100%;
             text-align: center;
         }
-        td{
+
+        td {
             width: 50%;
             height: 80vh;
         }
-        iframe{
-            width: 80%;
-            height: 80%;
+
+        iframe {
+            width: 90%;
+            height: 90%;
+        }
+        h3{
+            text-align: center;
+        }
+        .bg-cyan {
+            background-color: lightcyan;
+        }
+
+        .bg-pink {
+            background-color: lightpink;
         }
     </style>
 </head>
 
-<body>
+<body>    
     <div class="container">
+        <h3>youtube</h3>
         <table>
             <tr>
-                <td>
-                    <h3>youtube</h3><br>
+                <td class="bg-cyan">
+                    
                     <iframe src="https://www.youtube.com/embed/Cinv_VtMDa4?si=5I9w3dGLtXTZQFEY"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen></iframe>
                 </td>
-                <td>
+                <td class="bg-cyan">
                     <h4>Lorem, ipsum dolor.</h4>
                     <p>
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil soluta repellat pariatur,
@@ -46,15 +64,21 @@
                     </p>
                 </td>
             </tr>
+        </table>
+    </div>
+        <br>
+        <hr>
+    <div class="container"></div>
+        <h3>google map</h3>     
+        <table>       
             <tr>
-                <td>
-                    <h3>google map</h3>
+                <td class="bg-pink">                    
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.7020092413713!2d121.41690867600076!3d25.044184937880104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a7bed3dc9b59%3A0x57e6439a2db0fa2a!2zMjQz5paw5YyX5biC5rOw5bGx5Y2A6LK05a2Q6YeM6Ie06YGg5paw5p2RNTXkuYsx6Jmf5rOw5bGx6IG36KiT5Lit5b-D!5e0!3m2!1szh-TW!2stw!4v1696388222050!5m2!1szh-TW!2stw"
                         style="border:0;" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </td>
-                <td>
+                <td class="bg-pink">
                     <h4>Lorem, ipsum dolor.</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium tempora explicabo debitis
                         sunt dolorem, dolore nostrum quis nulla quas. Error.
